@@ -1,9 +1,8 @@
-import logo from "./logo.svg";
 import "./App.css";
-import Hello from "./Hello.js";
+import { TodoWrapper } from "./components/TodoWrapper.js";
 
 function App() {
-  return <Hello />;
+  return <div className="App"><TodoWrapper/></div>;
 }
 
 export default App;
